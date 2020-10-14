@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: flex;
+  left: 0;
+  max-width: 80vw;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  height: 100%;
+  width: 20vw;
+  text-align: center;
+  background-color: #333;
+  color: antiquewhite;
+  font-size: 24px;
+}
+
+.container ul li {
+  align-self: center;
+  color: antiquewhite;
+  width: 100%;
+}
+
+.container ul li:nth-child(2n-1) {
+  background-color: darkgray;
+}

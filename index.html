@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch animal picture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="fetch">
+        <Label for="animalInput">Choose the type of animal picture you want to fetch:</Label>
+        <select id="animalInput" class="dropdown">
+            <option value="Cat">Cat</option>
+            <option value="Dog">Dog</option>
+            <option value="Fox">Fox</option>
+        </select>
+        <button>Fetch new image</button>
+    </form>
+    <div class="container">
+        <div class="image-wrapper"></div>
+        <ul class="favorite">Favorites</ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
